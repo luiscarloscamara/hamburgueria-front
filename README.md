@@ -1,2 +1,1 @@
-# hamburgueria-front
-Front-end de uma hamburguria, projeto desenvolvido utilizando Angular
+# Burger Mania (Front-end)
