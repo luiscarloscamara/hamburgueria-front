@@ -21,13 +21,13 @@ O projeto do **back-end** pode ser encontrado neste outro
 <p align="center">
   <img 
     alt="Preview do projeto desenvolvido, página principal." 
-    src="hamburgueria-front/public/principal.png"
+    src="" 
     width="45%"
     style="margin-right: 10px;"
   >
   <img 
     alt="Preview do projeto desenvolvido, página de pedidos." 
-    src="hamburgueria-front/public/pedido.png" 
+    src="" 
     width="45%"
   >
 </p>
