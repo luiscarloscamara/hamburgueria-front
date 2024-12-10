@@ -1,25 +1,31 @@
 <form class="form" [formGroup]="burgerForm">
-  <div class="lineForm first-line" formGroupName="burger1">
+  <div formGroupName="product1" class="lineForm first-line">
     <mat-form-field class="full-width">
       <mat-label>Produto</mat-label>
-      <input matInput type="text" formControlName="name" required />
+      <mat-select formControlName="productId" required>
+        <mat-option *ngFor="let burger of burgers" [value]="burger.id">{{ burger.name }}</mat-option>
+      </mat-select>
     </mat-form-field>
 
     <mat-form-field class="full-width">
       <mat-label>Quantidade</mat-label>
-      <input matInput type="number" formControlName="quantity" required min="1" max="99" placeholder="Valores de 1 a 99"/>
+      <input matInput type="number" formControlName="quantity" required min="1" max="99"
+        placeholder="Valores de 1 a 99" />
     </mat-form-field>
   </div>
 
-  <div class="lineForm" formGroupName="burger2">
+  <div class="lineForm" formGroupName="product2">
     <mat-form-field class="full-width">
       <mat-label>Produto</mat-label>
-      <input matInput type="text" formControlName="name" required />
+      <mat-select formControlName="productId" required>
+        <mat-option *ngFor="let burger of burgers" [value]="burger.id">{{ burger.name }}</mat-option>
+      </mat-select>
     </mat-form-field>
 
     <mat-form-field class="full-width">
       <mat-label>Quantidade</mat-label>
-      <input matInput type="number" formControlName="quantity" required min="1" max="99" placeholder="Valores de 1 a 99"/>
+      <input matInput type="number" formControlName="quantity" required min="1" max="99"
+        placeholder="Valores de 1 a 99" />
     </mat-form-field>
   </div>
 
@@ -31,6 +37,13 @@
   </div>
 
   <div class="btn">
-    <app-button label="Finalizar" styleClass="primaryBtn uppercase" (click)="createOrder()"></app-button>
+    <mat-form-field>
+      <mat-label>Valor Total</mat-label>
+      <input matInput formControlName="value" />
+    </mat-form-field>
+  </div>
+
+  <div class="btn">
+    <app-button label="Finalizar" styleClass="primaryBtn uppercase" (click)="submitOrder()"></app-button>
   </div>
 </form>
