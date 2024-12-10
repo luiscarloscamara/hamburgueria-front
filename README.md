@@ -21,13 +21,13 @@ O projeto do **back-end** pode ser encontrado neste outro
 <p align="center">
   <img 
     alt="Preview do projeto desenvolvido, página principal." 
-    src="" 
+    src="./public/principal.png" 
     width="45%"
     style="margin-right: 10px;"
   >
   <img 
-    alt="Preview do projeto desenvolvido, página de pedidos." 
-    src="" 
+    alt="Preview do projeto desenvolvido, página de pedidos."
+    src="./public/pedido.png" 
     width="45%"
   >
 </p>
