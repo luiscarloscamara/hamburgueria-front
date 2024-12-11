@@ -2,7 +2,7 @@
 
 ## 💻 Projeto
 
-Desenvolvimento do **front-end** da uma aplicação web de uma Hamburgueria (Burguer Mania) utilizando o framework Angular e seguindo o design que pode ser encontrado no <a href="https://www.figma.com/design/qO2d4NzMoneeNcpweqgo69/Burguer-Mania?m=auto&t=EqnFTGwCaDdirqYE-6" target="_blank" rel="noopener noreferrer">Figma</a>.
+Desenvolvimento do **front-end** de uma aplicação web de uma Hamburgueria (Burguer Mania) utilizando o framework Angular e seguindo o design que pode ser encontrado no <a href="https://www.figma.com/design/qO2d4NzMoneeNcpweqgo69/Burguer-Mania?m=auto&t=EqnFTGwCaDdirqYE-6" target="_blank" rel="noopener noreferrer">Figma</a>.
 <br><br>
 O projeto é totalmente responsivo e intuitivo, além de ser componentizado para garantir a reutilização de telas.
 <br><br>
@@ -12,9 +12,9 @@ O projeto do **back-end** pode ser encontrado neste outro
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-estrutura de navegação">Navegação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-executar projeto">Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-estrutura-de-navegação">Navegação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-executar-projeto">Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
 
